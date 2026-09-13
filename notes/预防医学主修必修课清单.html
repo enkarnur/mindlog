@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../assets/site.css" />
   </head>
   <body>
-    <main class="site">
+    <main class="site-shell">
       <header class="site-header">
         <div class="site-title">卡尔的碎碎念</div>
         <nav class="site-nav">
@@ -22,13 +22,13 @@
         </nav>
       </header>
 
-      <a class="back-link" href="../index.html">← Back</a>
-      <h1 class="page-title">预防医学主修必修课清单</h1>
-      <p class="page-desc">根据成绩单整理，仅保留主修必修课程，去掉双学位课程、任选、通选和全部成绩信息。</p>
-
-      <div id="note-content" class="note-wrap"></div>
-
-      <footer class="post-footer">Notes</footer>
+      <div class="page-wrap">
+        <a class="back-link" href="../index.html">← Back</a>
+        <h1 class="page-title">预防医学主修必修课清单</h1>
+        <p class="page-intro">根据成绩单整理，仅保留主修必修课程，去掉双学位课程、任选、通选和全部成绩信息。</p>
+        <div id="note-content" class="note-area"></div>
+        <footer class="site-footer">Notes</footer>
+      </div>
     </main>
     <script>
       fetch('./预防医学主修必修课清单.md')
