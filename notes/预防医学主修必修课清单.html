@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>预防医学主修必修课清单</title>
-    <meta name="description" content="根据成绩单整理的主修必修课清单 去除双学位与成绩信息" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="根据成绩单整理的主修必修课清单，去掉双学位与成绩信息。" />
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,39 +12,29 @@
     <link rel="stylesheet" href="../assets/site.css" />
   </head>
   <body>
-    <div class="progress-bar"></div>
-    <main class="page-shell">
-      <header class="topbar fade-in">
-        <a class="brand" href="../index.html">
-          <span class="brand-dot"></span>
-          <span>卡尔的碎碎念</span>
-        </a>
-        <nav class="topnav">
-          <a href="../index.html">首页</a>
-          <a href="../posts/比选择和努力更重要的是选择的自由.html">文章</a>
-          <a class="active" href="预防医学主修必修课清单.html">课程清单</a>
+    <main class="site">
+      <header class="site-header">
+        <div class="site-title">卡尔的碎碎念</div>
+        <nav class="site-nav">
+          <a href="../index.html">Blog</a>
+          <a class="active" href="预防医学主修必修课清单.html">Notes</a>
+          <a href="https://github.com/enkarnur/mindlog" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
       </header>
 
-      <section class="note-shell fade-in">
-        <div class="kicker">课程整理</div>
-        <h1 class="article-title">预防医学主修必修课清单</h1>
-        <p class="article-lead">根据成绩单整理，仅保留主修必修课程，去掉双学位课程、任选、通选和全部成绩信息。</p>
-        <div class="divider"></div>
-        <div id="note-content" class="prose"></div>
-      </section>
+      <a class="back-link" href="../index.html">← Back</a>
+      <h1 class="page-title">预防医学主修必修课清单</h1>
+      <p class="page-desc">根据成绩单整理，仅保留主修必修课程，去掉双学位课程、任选、通选和全部成绩信息。</p>
 
-      <footer class="site-footer fade-in">
-        <img src="../assets/footer.svg" alt="页尾装饰" />
-      </footer>
+      <div id="note-content" class="note-wrap"></div>
+
+      <footer class="post-footer">Notes</footer>
     </main>
-    <script src="../assets/site.js"></script>
     <script>
       fetch('./预防医学主修必修课清单.md')
         .then((res) => res.text())
         .then((md) => {
-          const target = document.getElementById('note-content');
-          target.innerHTML = marked.parse(md);
+          document.getElementById('note-content').innerHTML = marked.parse(md);
         })
         .catch(() => {
           document.getElementById('note-content').innerHTML = '<p>内容加载失败，请稍后重试。</p>';
