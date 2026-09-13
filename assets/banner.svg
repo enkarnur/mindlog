@@ -1,0 +1,18 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="420" fill="#F4EFE7"/>
+  <rect x="56" y="54" width="1088" height="312" rx="24" fill="#FBF8F2" stroke="#DCCFBE"/>
+  <path d="M96 302C180 257 253 228 346 226C439 224 521 253 604 250C693 247 742 192 819 170C911 143 1000 158 1108 196" stroke="#B69071" stroke-width="5" stroke-linecap="round"/>
+  <path d="M98 326C197 288 280 275 371 278C451 281 533 314 618 313C705 312 786 275 873 255C952 237 1034 240 1100 262" stroke="#D8B79C" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="213" cy="143" r="42" fill="#E8D8C6"/>
+  <circle cx="985" cy="112" r="26" fill="#E8D8C6"/>
+  <path d="M177 144C194 124 209 111 230 97" stroke="#9E775D" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M957 113C970 100 984 92 1000 84" stroke="#9E775D" stroke-width="3" stroke-linecap="round"/>
+  <rect x="120" y="112" width="12" height="182" rx="6" fill="#C4A387"/>
+  <rect x="132" y="146" width="56" height="7" rx="3.5" fill="#C4A387"/>
+  <rect x="132" y="178" width="48" height="7" rx="3.5" fill="#C4A387"/>
+  <rect x="132" y="210" width="64" height="7" rx="3.5" fill="#C4A387"/>
+  <rect x="132" y="242" width="40" height="7" rx="3.5" fill="#C4A387"/>
+  <text x="600" y="170" text-anchor="middle" font-size="44" fill="#5F4636" font-family="Georgia, 'Noto Serif SC', serif">卡尔的碎碎念</text>
+  <text x="600" y="222" text-anchor="middle" font-size="20" fill="#8A6A54" font-family="Georgia, 'Noto Serif SC', serif">关于专业  时间  自由  还有一些慢慢写下来的判断</text>
+  <text x="600" y="300" text-anchor="middle" font-size="18" fill="#9E775D" font-family="Georgia, 'Noto Serif SC', serif">A quiet notebook of scattered thoughts</text>
+</svg>
